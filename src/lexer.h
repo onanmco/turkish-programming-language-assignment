@@ -1,8 +1,6 @@
 #ifndef LEXER_H
 #define LEXER_H
 
-#endif
-
 enum char_t_types {
     HARF = 0,
     RAKAM = 1,
@@ -65,4 +63,4 @@ typedef struct list_lexeme_t {
     size_t length;
     lexeme_t *data;
 } list_lexeme_t;
-
+#endif
