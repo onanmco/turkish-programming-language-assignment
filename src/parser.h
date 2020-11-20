@@ -1,8 +1,6 @@
 #ifndef PARSER_H
 #define PARSER_H
 
-#endif
-
 typedef struct var_t {
     char name[MAX_LEX_SIZE];
     int type;
@@ -95,3 +93,4 @@ int is_comparison(size_t *current_ptr);
 int do_if_if(size_t *current_ptr);
 
 int do_if_while(size_t *current_ptr);
+#endif
